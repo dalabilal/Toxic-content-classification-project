@@ -10,13 +10,6 @@ A Streamlit app that classifies text or images into toxic content categories.
 
 https://toxic-content-classification-projectgit-cc4t2hunv9eytrwcuuapph.streamlit.app/
 
-## How It Works
-
-```
-Image  -> BLIP-1 caption --\
-                            +--> LSTM classifier --> SQLite database
-User text -----------------/
-```
 
 ## Project Files
 
@@ -39,12 +32,11 @@ User text -----------------/
    cd <repository-folder>
    ```
 
-2. (Optional) Create a virtual environment:
+2. Create a virtual environment:
 
    ```bash
    python -m venv venv
-   venv\Scripts\activate        # Windows
-   source venv/bin/activate     # Mac / Linux
+   venv\Scripts\activate     
    ```
 
 3. Install the libraries from the requirements file:
@@ -63,8 +55,5 @@ The app opens in your browser at `http://localhost:8501`.
 
 **Notes:**
 - The first time you caption an image, the BLIP model is downloaded from Hugging Face, so you need an internet connection.
-- The trained model files must be in the `artifacts_lstm/` folder. To create them again, run `python train_LSTM.py`.
+- The trained model files must be in the `artifacts/` folder. To create them again, run `python train_LSTM.py`.
 
-## Database
-
-Results are stored in `toxic_logs.db` (SQLite) with these columns: `id`, `created_at`, `input_type`, `content`, `predicted_label`, `confidence`. You can see all records in the **View database** page of the app and download them as a CSV file.
