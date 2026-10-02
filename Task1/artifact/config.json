@@ -1,0 +1,22 @@
+{
+  "labels": [
+    "Child Sexual Exploitation",
+    "Elections",
+    "Non-Violent Crimes",
+    "Safe",
+    "Sex-Related Crimes",
+    "Suicide & Self-Harm",
+    "Unknown S-Type",
+    "Violent Crimes",
+    "unsafe"
+  ],
+  "max_q": 50,
+  "max_i": 11,
+  "seq_len": 62,
+  "pad": 0,
+  "unk": 1,
+  "sep": 2,
+  "emb_dim": 128,
+  "hidden": 128,
+  "dropout": 0.4
+}

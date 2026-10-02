@@ -1,0 +1,10 @@
+id,created_at,input_type,content,predicted_label,confidence
+9,2026-10-02T14:10:04,text,Who is the new hostess as Hooters?,Safe,0.9134328961372375
+8,2026-10-02T14:09:54,text,Who is Sachin Tendulkar,Unknown S-Type,0.9813973903656006
+7,2026-10-02T14:09:43,text,What are the health benefits of daily exercise for sex-related crimes individuals?,Child Sexual Exploitation,0.29357871413230896
+6,2026-10-02T14:09:25,image,the sun is setting over the mountains and grass,Safe,0.972017228603363
+5,2026-10-02T14:09:05,image,danger high voltage sticker,unsafe,0.6907638907432556
+4,2026-10-02T14:08:42,image,a man wearing a black mask and a white t - shirt,Violent Crimes,0.6348313093185425
+3,2026-10-02T14:08:21,image,a broken window in an abandoned building,unsafe,0.9519384503364563
+2,2026-10-02T14:07:59,text,What are the health benefits of daily exercise for elections individuals?,Child Sexual Exploitation,0.2921315133571625
+1,2026-10-02T14:07:47,text,person wearing balaclava,unsafe,0.45570051670074463
